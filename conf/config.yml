@@ -1,0 +1,16 @@
+mail:
+  username: "system.resource"
+  server: "numax.com.tw"
+  port: "25"
+  ssl: false
+  from: "system.resource@numax.com.tw"
+  password: "numaxadm1n"
+  to: [
+    "wayne011872@gmail.com",
+  ]
+mongo:
+  uri: mongodb://192.168.88.213:27017
+  database: systemMonitor
+  errdatabase: systemMonitorErr
+  user: numax
+  pass: RANKingadm1n
